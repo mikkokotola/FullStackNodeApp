@@ -1,0 +1,33 @@
+{
+  "name": "fullstacknodeapp",
+  "version": "1.0.0",
+  "description": "Full Stack Nodeapp for the UH course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkokotola/FullStackNodeApp.git"
+  },
+  "keywords": [
+    "Node",
+    "FullStack"
+  ],
+  "author": "Mikko Kotola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikkokotola/FullStackNodeApp/issues"
+  },
+  "homepage": "https://github.com/mikkokotola/FullStackNodeApp#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}

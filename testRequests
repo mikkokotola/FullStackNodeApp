@@ -1,0 +1,22 @@
+http://localhost:3001/api/persons/1
+
+GET http://localhost:3001/api/persons/1 HTTP/1.1
+GET http://localhost:3001/api/persons/277817 HTTP/1.1
+
+DELETE http://localhost:3001/api/persons/4 HTTP/1.1
+
+POST http://localhost:3001/api/persons HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Tonttu Tonttunen",
+    "number": "050-9876543"
+}
+
+POST http://localhost:3001/api/persons HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "050-9876543"
+}
